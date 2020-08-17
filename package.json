@@ -1,0 +1,23 @@
+{
+  "name": "ganje-hozour",
+  "version": "1.0.0",
+  "description": "New website for ganje houzor",
+  "main": "index.js",
+  "dependencies": {
+    "material-kit": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ganje-hozour"
+  },
+  "keywords": [
+    "ganje",
+    "hozour"
+  ],
+  "author": "b3hr4d",
+  "license": "ISC"
+}
