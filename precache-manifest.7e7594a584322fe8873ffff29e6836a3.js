@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a68b65babf7f117742e53c46e9194c2",
+    "revision": "aa7f7548dd69115e372212a95cfc3571",
     "url": "/Ganje-Hozour/index.html"
   },
   {
-    "revision": "8af72cc6729f4bdd5769",
-    "url": "/Ganje-Hozour/static/css/main.ef8d1a29.chunk.css"
+    "revision": "9d4630fd5ba6d4b77690",
+    "url": "/Ganje-Hozour/static/css/main.19e73b09.chunk.css"
   },
   {
-    "revision": "9c3dfc75c139678399f1",
-    "url": "/Ganje-Hozour/static/js/2.8b09594f.chunk.js"
+    "revision": "fbc7186f44028c9df3f9",
+    "url": "/Ganje-Hozour/static/js/2.ed5aab3f.chunk.js"
   },
   {
     "revision": "8dbc9bd92b344a5deca62eeacc09fc2d",
-    "url": "/Ganje-Hozour/static/js/2.8b09594f.chunk.js.LICENSE.txt"
+    "url": "/Ganje-Hozour/static/js/2.ed5aab3f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8af72cc6729f4bdd5769",
-    "url": "/Ganje-Hozour/static/js/main.bb58e777.chunk.js"
+    "revision": "9d4630fd5ba6d4b77690",
+    "url": "/Ganje-Hozour/static/js/main.89bf0eef.chunk.js"
   },
   {
     "revision": "84edf1459c1990215213",
@@ -104,10 +104,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ganje-Hozour/static/media/landing-bg.df8fd3ef.jpg"
   },
   {
-    "revision": "08e18cb904f0f3c6dd9e3d4ed72e0eca",
-    "url": "/Ganje-Hozour/static/media/landing.08e18cb9.jpg"
-  },
-  {
     "revision": "4575c40bfb8dec6713d2da51c4c4066e",
     "url": "/Ganje-Hozour/static/media/mariya-georgieva.4575c40b.jpg"
   },
@@ -118,10 +114,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "baf6b40a654b078399e93e3d9cb6d455",
     "url": "/Ganje-Hozour/static/media/profile-bg.baf6b40a.jpg"
-  },
-  {
-    "revision": "090a5aabae505f67ee0981613d02ee05",
-    "url": "/Ganje-Hozour/static/media/profile.090a5aab.jpg"
   },
   {
     "revision": "cf8b686b294041d0925f4e745b1fabb9",
@@ -146,5 +138,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef5c30ea69b7ad740ee6221782c73741",
     "url": "/Ganje-Hozour/static/media/studio-5.ef5c30ea.jpg"
+  },
+  {
+    "revision": "8a125fb225a1ca25174ee97a334e8350",
+    "url": "/Ganje-Hozour/static/media/videoPlayer.8a125fb2.mp4"
   }
 ]);
