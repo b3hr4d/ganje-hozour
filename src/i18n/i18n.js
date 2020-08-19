@@ -9,6 +9,7 @@ const resources = {
     translation: translationsEN
   },
   fa: {
+    defaultLanguage: true,
     translation: translationsFA
   }
 };
@@ -18,7 +19,7 @@ i18n
   .use(LanguageDetector)
   .init({
     resources,
-    fallbackLng: 'fa', // default language
+    fallbackLng: 'en', // default language
     interpolation: {
       escapeValue: false // react already safes from xss
     }

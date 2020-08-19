@@ -2,7 +2,7 @@
 import React from "react";
 
 // react components for routing our app without refresh
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
@@ -40,12 +40,12 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={Archive}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              {t('site.audioprogram')}
-            </Link>,
-            <Link to="/" className={classes.dropdownLink}>
-              {t('site.videoprogram')}
-            </Link>
+            <NavLink to="#programarchive" className={classes.dropdownLink}>
+              {t('site.audioprograms')}
+            </NavLink>,
+            <NavLink to="#programarchive" className={classes.dropdownLink}>
+              {t('site.videoprograms')}
+            </NavLink>
           ]}
         />
       </ListItem>
@@ -59,13 +59,13 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={MonetizationOnIcon}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="https://www.parvizshahbazi.com/support_ir.html" className={classes.dropdownLink}>
               {t('site.iran')}
             </Link>,
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="https://www.parvizshahbazi.com/support_us.html" className={classes.dropdownLink}>
               {t('site.usa')}
             </Link>,
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="https://www.parvizshahbazi.com/support_eu.html" className={classes.dropdownLink}>
               {t('site.europe')}
             </Link>
           ]}
@@ -73,7 +73,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
+          href="https://www.parvizshahbazi.com/live_radio.php"
           color="transparent"
           target="_blank"
           className={classes.navLink}
@@ -83,7 +83,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
+          href="http://parvizshahbazi.com/ganj_videos/register.php"
           color="transparent"
           target="_blank"
           className={classes.navLink} >

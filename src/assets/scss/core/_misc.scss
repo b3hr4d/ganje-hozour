@@ -124,3 +124,22 @@ img {
 form {
   margin-bottom: 1.125rem;
 }
+.scrollableProps {
+  min-width: 120px;
+  box-shadow: inset 0px 10px 8px -10px black, inset 0px -10px 8px -10px black;
+  scrollbar-color: #ae5cc1 #f1f1f1;
+  scrollbar-width: thin;
+  border: 1px solid #f1f1f1;
+}
+.scrollableProps::-webkit-scrollbar {
+  width: 0.75em;
+}
+
+.scrollableProps::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.scrollableProps::-webkit-scrollbar-thumb {
+  background-color: #ae5cc1;
+  outline: 1px solid slategrey;
+}

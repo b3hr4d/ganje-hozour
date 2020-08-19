@@ -13,10 +13,11 @@ import { useTranslation } from "react-i18next";
 
 const useStyles = makeStyles((theme) => ({
   section: {
-    padding: "70px 0"
+    padding: "50px 0"
   },
   contain: {
-    height: '87%'
+    height: '87%',
+    backgroundColor: 'rgb(0, 0, 0, 0.3)'
   },
   marginAuto: {
     marginLeft: "auto !important",
@@ -30,9 +31,7 @@ const useStyles = makeStyles((theme) => ({
     margin: '2px',
     padding: '4% 0',
     color: '#89ff87',
-    backgroundColor: "rgba(0,0,0,0.2)",
     textAlign: 'center',
-    borderRadius: '6px',
   },
   rtl: {
     fontFamily: 'Nastaliq',

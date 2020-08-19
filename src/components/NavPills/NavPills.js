@@ -75,6 +75,7 @@ export default function NavPills(props) {
         axis={direction === "rtl" ? "x-reverse" : "x"}
         index={active}
         onChangeIndex={handleChangeIndex}
+        slideStyle={{ overflow: "hidden !important" }}
       >
         {tabs.map((prop, key) => {
           return (
@@ -92,11 +93,11 @@ export default function NavPills(props) {
       <GridItem {...horizontal.contentGrid}>{tabContent}</GridItem>
     </GridContainer>
   ) : (
-    <div>
-      {tabButtons}
-      {tabContent}
-    </div>
-  );
+      <div>
+        {tabButtons}
+        {tabContent}
+      </div>
+    );
 }
 
 NavPills.defaultProps = {

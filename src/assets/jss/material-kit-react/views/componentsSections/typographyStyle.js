@@ -4,7 +4,7 @@ import imagesStyles from "assets/jss/material-kit-react/imagesStyles.js";
 
 const typographyStyle = {
   section: {
-    padding: "70px 0"
+    padding: "50px 0"
   },
   container,
   space50: {

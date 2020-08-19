@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 // core components
-import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import Parallax from "components/Parallax/Parallax.js";
@@ -22,7 +21,7 @@ import SectionJavascript from "./Sections/SectionJavascript.js";
 import SectionCarousel from "./Sections/SectionCarousel.js";
 import SectionCompletedExamples from "./Sections/SectionCompletedExamples.js";
 import SectionLogin from "./Sections/SectionLogin.js";
-import SectionExamples from "./Sections/SectionExamples.js";
+import SectionVideo from "./Sections/SectionVideo.js";
 import SectionDownload from "./Sections/SectionDownload.js";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
@@ -43,10 +42,11 @@ export default function Components(props) {
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
+        <SectionVideo />
+        <SectionDownload />
+        {/* <SectionTabs />
         <SectionPills />
-        <SectionTabs />
-        {/* <SectionCarousel /> */}
-        {/* <SectionBasics />
+        <SectionBasics />
         <SectionNavbars />
         <SectionNotifications />
         <SectionTypography />
@@ -60,8 +60,7 @@ export default function Components(props) {
             </Button>
           </Link>
         </GridItem>
-        <SectionExamples />*/}
-        <SectionDownload />
+         */}
       </div>
     </div>
   );

@@ -3,6 +3,8 @@
     "ganjehozour": "Ganje Hozour",
     "sitedescription": "New website with react",
     "programs": "Program Archive",
+    "audioprograms": "Audio Programs",
+    "videoprograms": "Video Programs",
     "audioprogram": "Audio Program",
     "videoprogram": "Video Program",
     "download": "Download",
@@ -13,7 +15,12 @@
     "subscribe": "Subscribe",
     "iran": "Iran",
     "usa": "USA",
-    "europe": "Europe"
+    "europe": "Europe",
+    "programarchive": "Program Archive",
+    "audio": "Audio",
+    "video": "Video",
+    "schedule": "Schedule",
+    "program": "Program"
   },
   "information": {},
   "verse": {

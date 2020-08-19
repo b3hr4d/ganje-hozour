@@ -9,7 +9,6 @@ import {
 
 const navPillsStyle = theme => ({
   root: {
-    marginTop: "20px",
     paddingLeft: "0",
     marginBottom: "0",
     overflow: "visible !important",
@@ -31,7 +30,8 @@ const navPillsStyle = theme => ({
     display: "none !important"
   },
   fixed: {
-    overflow: "visible !important"
+    overflow: "visible !important",
+    width: "auto"
   },
   horizontalDisplay: {
     display: "block"
@@ -41,14 +41,12 @@ const navPillsStyle = theme => ({
     position: "relative",
     display: "block",
     borderRadius: "30px",
-    minWidth: "100px",
     textAlign: "center",
     transition: "all .3s",
     padding: "10px 15px",
     color: "#555555",
     height: "auto",
     opacity: "1",
-    maxWidth: "100%",
     margin: "0 5px"
   },
   pillsWithIcons: {

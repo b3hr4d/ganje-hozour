@@ -11,6 +11,7 @@
     "classnames": "2.2.6",
     "history": "4.10.1",
     "i18next": "^15.0.4",
+    "i18next-browser-languagedetector": "^4.1.1",
     "i18next-xhr-backend": "^2.0.1",
     "jss-rtl": "^0.3.0",
     "moment": "2.26.0",
@@ -18,14 +19,16 @@
     "nouislider": "14.5.0",
     "prop-types": "15.7.2",
     "react": "16.13.1",
+    "react-custom-scrollbars": "^4.2.1",
     "react-datetime": "2.16.3",
     "react-dom": "16.13.1",
     "react-i18next": "^10.1.2",
+    "react-player": "^2.6.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "3.4.1",
     "react-slick": "0.26.1",
     "react-swipeable-views": "0.13.9",
-    "i18next-browser-languagedetector": "^4.1.1"
+    "react-window": "^1.8.5"
   },
   "devDependencies": {
     "@babel/cli": "7.10.1",

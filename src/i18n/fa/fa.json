@@ -3,8 +3,10 @@
     "ganjehozour": "گنج حضور",
     "sitedescription": "وبسایت جدید گنج حضور ",
     "programs": "آرشیو برنامه‌ها",
-    "audioprogram": "برنامه‌های صوتی",
-    "videoprogram": "برنامه‌های تصویری",
+    "audioprograms": "برنامه‌های صوتی",
+    "videoprograms": "برنامه‌های تصویری",
+    "audioprogram": "برنامه‌ صوتی",
+    "videoprogram": "برنامه‌ تصویری",
     "download": "دانلود",
     "language": "زبان",
     "english": "انگلیسی",
@@ -13,7 +15,12 @@
     "subscribe": "حق عضویت",
     "iran": "ایران",
     "usa": "آمریکا",
-    "europe": "اروپا"
+    "europe": "اروپا",
+    "programarchive": "آرشیو برنامه‌ها",
+    "audio": "صوتی",
+    "video": "تصویری",
+    "schedule": "روزنگار",
+    "program": "برنامه"
   },
   "information": {
     "msnvd4b52": "مثنوی معنوی / دفتر چهارم / بخش 52"

@@ -6,7 +6,7 @@ import popoverStyles from "assets/jss/material-kit-react/popoverStyles.js";
 
 const javascriptStyles = {
   section: {
-    padding: "70px 0 0"
+    padding: "50px 0 0"
   },
   container,
   title: {

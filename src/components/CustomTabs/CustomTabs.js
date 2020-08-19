@@ -23,9 +23,10 @@ export default function CustomTabs(props) {
 
   const handleChange = (event, value) => {
     setValue(value);
+    clickOnTabs(value)
   };
   const classes = useStyles();
-  const { headerColor, plainTabs, tabs, title, rtlActive } = props;
+  const { headerColor, plainTabs, tabs, title, rtlActive, clickOnTabs } = props;
   const cardTitle = classNames({
     [classes.cardTitle]: true,
     [classes.cardTitleRTL]: rtlActive
@@ -50,8 +51,8 @@ export default function CustomTabs(props) {
                   typeof prop.tabIcon === "string" ? (
                     <Icon>{prop.tabIcon}</Icon>
                   ) : (
-                    <prop.tabIcon />
-                  )
+                      <prop.tabIcon />
+                    )
               };
             }
             return (
