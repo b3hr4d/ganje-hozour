@@ -15,10 +15,16 @@ import Drawer from "@material-ui/core/Drawer";
 import Menu from "@material-ui/icons/Menu";
 // core components
 import styles from "assets/jss/material-kit-react/components/headerStyle.js";
+import { ListItem } from "@material-ui/core";
+import CustomDropdown from "components/CustomDropdown/CustomDropdown";
+import LanguageIcon from '@material-ui/icons/Language';
+import { useTranslation } from "react-i18next";
 
 const useStyles = makeStyles(styles);
 
 export default function Header(props) {
+  const { t } = useTranslation()
+
   const classes = useStyles();
   const [mobileOpen, setMobileOpen] = React.useState(false);
   React.useEffect(() => {
@@ -35,7 +41,7 @@ export default function Header(props) {
     setMobileOpen(!mobileOpen);
   };
   const headerColorChange = () => {
-    const { color, changeColorOnScroll } = props;
+    const { color, changeColorOnScroll, changeBackgroundOnScroll } = props;
     const windowsScrollTop = window.pageYOffset;
     if (windowsScrollTop > changeColorOnScroll.height) {
       document.body
@@ -44,10 +50,16 @@ export default function Header(props) {
       document.body
         .getElementsByTagName("header")[0]
         .classList.add(classes[changeColorOnScroll.color]);
+      document.body
+        .getElementsByTagName("header")[0].children[0]
+        .classList.remove(classes['transparentDark']);
     } else {
       document.body
         .getElementsByTagName("header")[0]
         .classList.add(classes[color]);
+      document.body
+        .getElementsByTagName("header")[0].children[0]
+        .classList.add(classes['transparentDark']);
       document.body
         .getElementsByTagName("header")[0]
         .classList.remove(classes[changeColorOnScroll.color]);
@@ -63,7 +75,7 @@ export default function Header(props) {
   const brandComponent = <Button className={classes.title}>{brand}</Button>;
   return (
     <AppBar className={appBarClasses}>
-      <Toolbar className={classes.container}>
+      <Toolbar className={`${classes.container} ${classes.transparentDark}`}>
         {leftLinks !== undefined ? brandComponent : null}
         <div className={classes.flex}>
           {leftLinks !== undefined ? (
@@ -71,18 +83,37 @@ export default function Header(props) {
               {leftLinks}
             </Hidden>
           ) : (
-            brandComponent
-          )}
+              brandComponent
+            )}
         </div>
         <Hidden smDown implementation="css">
           {rightLinks}
         </Hidden>
+        <ListItem className={classes.listItem}>
+          <CustomDropdown
+            styles={{ minWidth: 0 }}
+            noLiPadding
+            buttonText={t('site.language')}
+            buttonProps={{
+              className: classes.navLink,
+              color: "transparent"
+            }}
+            buttonIcon={LanguageIcon}
+            dropdownList={[
+              <a onClick={() => props.changeLanguage('en')} className={classes.dropdownLink}>
+                {t('site.english')}
+              </a>,
+              <a onClick={() => props.changeLanguage('fa')} className={classes.dropdownLink}>
+                {t('site.farsi')}
+              </a>
+            ]}
+          />
+        </ListItem>
         <Hidden mdUp>
           <IconButton
             color="inherit"
             aria-label="open drawer"
-            onClick={handleDrawerToggle}
-          >
+            onClick={handleDrawerToggle} >
             <Menu />
           </IconButton>
         </Hidden>
@@ -92,18 +123,15 @@ export default function Header(props) {
           variant="temporary"
           anchor={"right"}
           open={mobileOpen}
-          classes={{
-            paper: classes.drawerPaper
-          }}
-          onClose={handleDrawerToggle}
-        >
+          classes={{ paper: classes.drawerPaper }}
+          onClose={handleDrawerToggle}>
           <div className={classes.appResponsive}>
             {leftLinks}
             {rightLinks}
           </div>
         </Drawer>
       </Hidden>
-    </AppBar>
+    </AppBar >
   );
 }
 

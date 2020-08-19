@@ -12,7 +12,7 @@ import {
   drawerWidth
 } from "assets/jss/material-kit-react.js";
 
-const headerStyle = {
+const headerStyle = theme => ({
   appBar: {
     display: "flex",
     border: "0",
@@ -46,13 +46,15 @@ const headerStyle = {
     alignItems: "center",
     justifyContent: "space-between",
     display: "flex",
-    flexWrap: "nowrap"
+    flexWrap: "nowrap",
   },
   flex: {
-    flex: 1
+    flex: 1,
+    textAlign: 'initial',
   },
   title: {
     ...defaultFont,
+    fontFamily: 'Lalezar',
     lineHeight: "30px",
     fontSize: "18px",
     borderRadius: "3px",
@@ -107,8 +109,14 @@ const headerStyle = {
   transparent: {
     backgroundColor: "transparent !important",
     boxShadow: "none",
-    paddingTop: "25px",
+    paddingTop: "15px",
     color: "#FFFFFF"
+  },
+  transparentDark: {
+    color: "#FFFFFF",
+    backgroundColor: "rgb(33, 33, 33,  0.55) !important",
+    boxShadow:
+      "0 4px 20px 0px rgba(0, 0, 0, 0.04), 0 7px 12px -5px rgba(33, 33, 33, 0.26)"
   },
   dark: {
     color: "#FFFFFF",
@@ -146,7 +154,61 @@ const headerStyle = {
     paddingRight: "0px",
     paddingLeft: "0",
     ...transition
+  },
+  listItem: {
+    float: "left",
+    color: "inherit",
+    position: "relative",
+    width: "auto",
+    margin: "0",
+    padding: "0",
+    [theme.breakpoints.down("sm")]: {
+      "&:after": {
+        content: '""',
+        display: "block",
+        height: "1px",
+        marginLeft: "15px",
+        backgroundColor: "#e5e5e5"
+      }
+    }
+  },
+  listItemText: {
+    padding: "0 !important"
+  },
+  navLink: {
+    color: "inherit",
+    position: "relative",
+    padding: "0.9375rem",
+    fontWeight: "400",
+    fontSize: "12px",
+    textTransform: "uppercase",
+    borderRadius: "3px",
+    lineHeight: "20px",
+    textDecoration: "none",
+    margin: "0px",
+    display: "inline-flex",
+    "&:hover,&:focus": {
+      color: "inherit",
+      background: "rgba(200, 200, 200, 0.2)"
+    },
+    [theme.breakpoints.down("sm")]: {
+      marginLeft: "15px",
+      marginBottom: "8px",
+      marginTop: "8px",
+      textAlign: "left",
+      "& > span:first-child": {
+        justifyContent: "flex-start"
+      }
+    }
+  },
+  dropdownLink: {
+    "&,&:hover,&:focus": {
+      color: "inherit",
+      textDecoration: "none",
+      display: "block",
+      padding: "10px 20px"
+    }
   }
-};
+});
 
 export default headerStyle;

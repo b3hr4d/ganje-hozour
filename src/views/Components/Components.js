@@ -7,14 +7,11 @@ import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 // core components
-import Header from "components/Header/Header.js";
-import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import Parallax from "components/Parallax/Parallax.js";
 // sections for this page
-import HeaderLinks from "components/Header/HeaderLinks.js";
 import SectionBasics from "./Sections/SectionBasics.js";
 import SectionNavbars from "./Sections/SectionNavbars.js";
 import SectionTabs from "./Sections/SectionTabs.js";
@@ -29,49 +26,31 @@ import SectionExamples from "./Sections/SectionExamples.js";
 import SectionDownload from "./Sections/SectionDownload.js";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
+import { useTranslation } from 'react-i18next'
 
 const useStyles = makeStyles(styles);
 
 export default function Components(props) {
+  const { t } = useTranslation()
+
   const classes = useStyles();
   const { ...rest } = props;
   return (
     <div>
-      <Header
-        brand="Material Kit React"
-        rightLinks={<HeaderLinks />}
-        fixed
-        color="transparent"
-        changeColorOnScroll={{
-          height: 400,
-          color: "white"
-        }}
-        {...rest}
-      />
-      <Parallax image={require("assets/img/bg4.jpg")}>
+      <Parallax image={require("assets/img/god.jpeg")}>
         <div className={classes.container}>
-          <GridContainer>
-            <GridItem>
-              <div className={classes.brand}>
-                <h1 className={classes.title}>Material Kit React.</h1>
-                <h3 className={classes.subtitle}>
-                  A Badass Material-UI Kit based on Material Design.
-                </h3>
-              </div>
-            </GridItem>
-          </GridContainer>
+          <SectionCarousel />
         </div>
       </Parallax>
-
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionBasics />
-        <SectionNavbars />
-        <SectionTabs />
         <SectionPills />
+        <SectionTabs />
+        {/* <SectionCarousel /> */}
+        {/* <SectionBasics />
+        <SectionNavbars />
         <SectionNotifications />
         <SectionTypography />
         <SectionJavascript />
-        <SectionCarousel />
         <SectionCompletedExamples />
         <SectionLogin />
         <GridItem md={12} className={classes.textCenter}>
@@ -81,10 +60,9 @@ export default function Components(props) {
             </Button>
           </Link>
         </GridItem>
-        <SectionExamples />
+        <SectionExamples />*/}
         <SectionDownload />
       </div>
-      <Footer />
     </div>
   );
 }
