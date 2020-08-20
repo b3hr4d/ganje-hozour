@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a319dcd9fdc6f0e30a445d972cd59d18",
+    "revision": "bbc0e0b8b04978931f3711b125544fb9",
     "url": "/ganje-hozour/index.html"
   },
   {
-    "revision": "b409af593858cfd03a80",
+    "revision": "4e20b105eacf8455b706",
     "url": "/ganje-hozour/static/css/main.634589fa.chunk.css"
   },
   {
-    "revision": "fbc7186f44028c9df3f9",
-    "url": "/ganje-hozour/static/js/2.ed5aab3f.chunk.js"
+    "revision": "ed2a1fbcde01e47b4b10",
+    "url": "/ganje-hozour/static/js/2.5ea2d478.chunk.js"
   },
   {
     "revision": "8dbc9bd92b344a5deca62eeacc09fc2d",
-    "url": "/ganje-hozour/static/js/2.ed5aab3f.chunk.js.LICENSE.txt"
+    "url": "/ganje-hozour/static/js/2.5ea2d478.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b409af593858cfd03a80",
-    "url": "/ganje-hozour/static/js/main.89bf0eef.chunk.js"
+    "revision": "4e20b105eacf8455b706",
+    "url": "/ganje-hozour/static/js/main.e2155da9.chunk.js"
   },
   {
     "revision": "89c4dea6467596b018fd",
