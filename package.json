@@ -1,7 +1,7 @@
 {
   "homepage": "https://b3hr4.github.io/ganje-hozour",
   "name": "ganje-hozour-react",
-  "version": "1.9.0",
+  "version": "0.9.0",
   "description": "a new website for ganje hozour created by b3hr4d",
   "private": true,
   "main": "src/index.js",
@@ -25,7 +25,7 @@
     "react-i18next": "^10.1.2",
     "react-player": "^2.6.0",
     "react-router-dom": "5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.3",
     "react-slick": "0.26.1",
     "react-swipeable-views": "0.13.9",
     "react-window": "^1.8.5"
