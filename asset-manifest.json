@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ganje-hozour/static/css/main.634589fa.chunk.css",
-    "main.js": "/ganje-hozour/static/js/main.e2155da9.chunk.js",
-    "main.js.map": "/ganje-hozour/static/js/main.e2155da9.chunk.js.map",
+    "main.js": "/ganje-hozour/static/js/main.6b7805ae.chunk.js",
+    "main.js.map": "/ganje-hozour/static/js/main.6b7805ae.chunk.js.map",
     "runtime-main.js": "/ganje-hozour/static/js/runtime-main.30dc1b6f.js",
     "runtime-main.js.map": "/ganje-hozour/static/js/runtime-main.30dc1b6f.js.map",
     "static/js/2.5ea2d478.chunk.js": "/ganje-hozour/static/js/2.5ea2d478.chunk.js",
     "static/js/2.5ea2d478.chunk.js.map": "/ganje-hozour/static/js/2.5ea2d478.chunk.js.map",
     "index.html": "/ganje-hozour/index.html",
-    "precache-manifest.ee6b56e900de3ec1177bfafb6fb1f162.js": "/ganje-hozour/precache-manifest.ee6b56e900de3ec1177bfafb6fb1f162.js",
+    "precache-manifest.ea8b9304967c5a7ba38b61d7ea1b1a4b.js": "/ganje-hozour/precache-manifest.ea8b9304967c5a7ba38b61d7ea1b1a4b.js",
     "service-worker.js": "/ganje-hozour/service-worker.js",
     "static/css/main.634589fa.chunk.css.map": "/ganje-hozour/static/css/main.634589fa.chunk.css.map",
     "static/js/2.5ea2d478.chunk.js.LICENSE.txt": "/ganje-hozour/static/js/2.5ea2d478.chunk.js.LICENSE.txt",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.30dc1b6f.js",
     "static/js/2.5ea2d478.chunk.js",
     "static/css/main.634589fa.chunk.css",
-    "static/js/main.e2155da9.chunk.js"
+    "static/js/main.6b7805ae.chunk.js"
   ]
 }

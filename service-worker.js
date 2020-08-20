@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ganje-hozour/precache-manifest.ee6b56e900de3ec1177bfafb6fb1f162.js"
+  "/ganje-hozour/precache-manifest.ea8b9304967c5a7ba38b61d7ea1b1a4b.js"
 );
 
 self.addEventListener('message', (event) => {
