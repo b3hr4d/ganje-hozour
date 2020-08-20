@@ -20,9 +20,27 @@
     "audio": "Audio",
     "video": "Video",
     "schedule": "Schedule",
-    "program": "Program"
+    "program": "Program",
+    "contact": "Contact",
+    "application": "Application",
+    "telegram": "Telegram",
+    "emailaddress": "Email Address",
+    "share": "Share",
+    "tweet": "Tweet",
+    "star": "Star",
+    "aboutus": "About us",
+    "madewith": "Made with",
+    "by": "by",
+    "blog": "Blog",
+    "appstore": "App Store",
+    "androidmarket": "Android Market",
+    "ganjnama": "GanjNama"
   },
-  "information": {},
+  "info": {
+    "thankyouforsup": "Thank you for supporting us!",
+    "downloadapp": "You can Download Ganje Hozour applications for Android & ios from here.",
+    "tvaddress": "Ganj e Hozour TV and Radio is broadcast from Los Angles California and our address is: P.O.BOX 745 Woodland Hills, CA 91365 USA."
+  },
   "verse": {
     "msnvd4b521": "Whoever he was was shaking his head",
     "msnvd4b522": "His movement was like a scorpion movement",

@@ -12,10 +12,14 @@ import { makeStyles } from "@material-ui/core/styles";
 import Favorite from "@material-ui/icons/Favorite";
 
 import styles from "assets/jss/material-kit-react/components/footerStyle.js";
+import { useTranslation } from "react-i18next";
 
 const useStyles = makeStyles(styles);
 
 export default function Footer(props) {
+
+  const { t } = useTranslation()
+
   const classes = useStyles();
   const { whiteFont } = props;
   const footerClasses = classNames({
@@ -33,50 +37,45 @@ export default function Footer(props) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="http://www.ganjnama.com/"
+                href="https://github.com/b3hr4d/ganje-hozour"
                 className={classes.block}
-                target="_blank"
-              >
-                GanjNama
+                target="_blank" >
+                {t('site.ganjehozour')}
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
                 href="/about"
                 className={classes.block}
-                target="_blank"
-              >
-                About us
+                target="_blank" >
+                {t('site.aboutus')}
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
                 href="https://www.parvizshahbazi.com/"
                 className={classes.block}
-                target="_blank"
-              >
-                Blog
+                target="_blank" >
+                {t('site.blog')}
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="/"
+                href="http://www.ganjnama.com/"
                 className={classes.block}
-                target="_blank"
-              >
-                Ganje Hozour
+                target="_blank" >
+                {t('site.ganjnama')}
               </a>
             </ListItem>
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
+          &copy; {1900 + new Date().getYear()} , {t('site.madewith')}{" "}
+          <Favorite className={classes.icon} /> {t('site.by')}{" "}
           <a
-            href="https://www.b3hr4d.ir"
+            href="https://github.com/b3hr4d"
             className={aClasses}
-            target="_blank"
-          >
+            target="_blank">
             B3HR4D
           </a>
         </div>

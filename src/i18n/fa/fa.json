@@ -20,10 +20,26 @@
     "audio": "صوتی",
     "video": "تصویری",
     "schedule": "روزنگار",
-    "program": "برنامه"
+    "program": "برنامه",
+    "contact": "تماس",
+    "application": "برنامه",
+    "telegram": "تلگرام",
+    "emailaddress": "آدرس ایمیل",
+    "share": "اشتراک گذاری",
+    "tweet": "توئیت",
+    "star": "ستاره",
+    "aboutus": "درباره ما",
+    "madewith": "ساخته شده با",
+    "by": "توسط",
+    "blog": "بلاگ",
+    "appstore": "اپ استور",
+    "androidmarket": "اندروید مارکت",
+    "ganjnama": "گنج نما"
   },
-  "information": {
-    "msnvd4b52": "مثنوی معنوی / دفتر چهارم / بخش 52"
+  "info": {
+    "thankyouforsup": "با تشکر از حمایت‌های شما!",
+    "downloadapp": "شما می توانید برنامه‌های گنج حضور را برای اندروید و ای او اس دانلود کنید.",
+    "tvaddress": "Ganj e Hozour TV and Radio is broadcast from Los Angles California and our address is: P.O.BOX 745 Woodland Hills, CA 91365 USA."
   },
   "verse": {
     "msnvd4b521": "هر که او بی سر بجنبد دم بود",

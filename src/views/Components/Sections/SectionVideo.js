@@ -96,7 +96,7 @@ export default function SectionVideo() {
       <div className={classes.container}>
         <h3 id={"programarchive"} className={classes.titr}>{t("site.programarchive")}</h3>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={6}>
+          <GridItem xs={12} sm={12} md={6} style={{ margin: 'auto' }}>
             <CustomTabs
               clickOnTabs={clickOnTabs}
               headerColor="primary"
@@ -121,7 +121,7 @@ export default function SectionVideo() {
               ]}
             />
           </GridItem>
-          <GridItem xs={12} sm={12} md={6}>
+          <GridItem xs={12} sm={12} md={6} style={{ margin: 'auto' }}>
             <VideoPlayer classList={classes.reactPlayer} URL={URL} />
           </GridItem>
         </GridContainer>

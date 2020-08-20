@@ -65,7 +65,11 @@ const useStyles = makeStyles((theme) => ({
     color: '#ffffff',
     textAlign: 'center',
     zIndex: '3',
-    display: 'block'
+    display: 'block',
+    "&:hover, &:focus": {
+      color: '#89ff87',
+      textDecoration: 'none'
+    },
   }
 }));
 
