@@ -2,7 +2,7 @@
 
 طرح پیشنهادی از سایت جدید گنج حضور
 
-![نمایش](https://github.com/b3hr4d/ganje-hozour/blob/master/Capture.PNG?raw=true)(https://b3hr4d.github.io/ganje-hozour)
+[![پیشنمایش سایت](https://github.com/b3hr4d/ganje-hozour/blob/master/Capture.PNG?raw=true)](https://b3hr4d.github.io/ganje-hozour)
 
 ### اهداف از ساخت این پروژه
 
