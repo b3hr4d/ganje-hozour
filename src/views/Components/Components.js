@@ -25,12 +25,10 @@ import SectionVideo from "./Sections/SectionVideo.js";
 import SectionDownload from "./Sections/SectionDownload.js";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
-import { useTranslation } from 'react-i18next'
 
 const useStyles = makeStyles(styles);
 
 export default function Components(props) {
-  const { t } = useTranslation()
 
   const classes = useStyles();
   const { ...rest } = props;
