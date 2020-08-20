@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04c3714c7d3cc14ad7ca832f18b8b81c",
+    "revision": "2441887c90e99115f1fb5c1805a575a6",
     "url": "/ganje-hozour/index.html"
   },
   {
-    "revision": "977d171d9f4adedac25b",
-    "url": "/ganje-hozour/static/css/main.634589fa.chunk.css"
+    "revision": "613b567f997a66a600cf",
+    "url": "/ganje-hozour/static/css/main.20b80b0e.chunk.css"
   },
   {
     "revision": "ed2a1fbcde01e47b4b10",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ganje-hozour/static/js/2.5ea2d478.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "977d171d9f4adedac25b",
+    "revision": "613b567f997a66a600cf",
     "url": "/ganje-hozour/static/js/main.6b7805ae.chunk.js"
   },
   {
