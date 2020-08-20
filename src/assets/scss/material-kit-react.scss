@@ -27,3 +27,56 @@
 @import "plugins/plugin-nouislider";
 @import "plugins/plugin-react-datetime";
 @import "plugins/plugin-react-slick";
+
+@font-face {
+  font-family: Vazir;
+  src: url(../fonts/Vazir.woff2);
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../fonts/Vazir-Black.woff2);
+  font-weight: 900;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../fonts/Vazir-Medium.woff2);
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../fonts/Vazir-Light.woff2);
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../fonts/Vazir-Thin.woff2);
+  font-weight: 100;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: Nastaliq;
+  src: url(../fonts/IranNastaliq.ttf);
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: Font awesome\5 Free;
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url(../fonts/fa-solid-900.eot);
+  src: url(../fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/fa-solid-900.woff2) format("woff2"),
+    url(../fonts/fa-solid-900.woff) format("woff"),
+    url(../fonts/fa-solid-900.ttf) format("truetype");
+}

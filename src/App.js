@@ -18,8 +18,6 @@ import Header from 'components/Header/Header';
 import HeaderLinks from 'components/Header/HeaderLinks';
 import Footer from 'components/Footer/Footer';
 
-import "./App.css";
-
 var hist = createBrowserHistory();
 
 const jss = create({ plugins: [...jssPreset().plugins, rtl()] });
