@@ -35,7 +35,7 @@ export default function SectionVideo() {
   function renderRow(props) {
     const { index, style } = props;
     const text = isAudio ? t("site.audioprogram") : t("site.videoprogram")
-    if (selectedNum + index + 1 > 827) {
+    if (selectedNum + index + 1 > 832) {
       return <div>...</div>
     }
     else {
@@ -64,7 +64,6 @@ export default function SectionVideo() {
     style: PropTypes.object.isRequired,
   };
   const clickOnTabs = (e) => {
-    console.log(e)
     if (e === 1) {
       setAudio(true)
     } else {
@@ -122,7 +121,7 @@ export default function SectionVideo() {
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={6} style={{ margin: 'auto' }}>
-            <VideoPlayer classList={classes.reactPlayer} URL={URL} />
+            <VideoPlayer classList={classes.reactPlayer} URL={URL} isAudio={isAudio} />
           </GridItem>
         </GridContainer>
       </div>

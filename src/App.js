@@ -4,8 +4,8 @@ import { Router, Route, Switch } from "react-router-dom";
 import { create } from 'jss';
 import rtl from 'jss-rtl';
 
-import { MuiThemeProvider, StylesProvider, createMuiTheme, jssPreset, } from '@material-ui/core/styles';
-import i18n from "./i18n/i18n";
+import { MuiThemeProvider, StylesProvider, createMuiTheme, jssPreset } from '@material-ui/core/styles';
+import I18n from "./i18n/i18n";
 import "assets/scss/material-kit-react.scss?v=1.9.0";
 
 // pages for this product
@@ -28,18 +28,18 @@ function App() {
     const { t } = useTranslation();
 
     const theme = createMuiTheme({
-        direction: i18n.dir(),
+        direction: I18n.dir(),
         typography: {
             fontFamily: 'Vazir',
         },
     });
 
-    document.body.dir = i18n.dir();
+    document.body.dir = I18n.dir();
     document.title = t('site.ganjehozour');
 
     const changeLanguage = (lng) => {
-        i18n.changeLanguage(lng)
-        document.body.dir = i18n.dir();
+        I18n.changeLanguage(lng)
+        document.body.dir = I18n.dir();
         document.title = t('site.ganjehozour');
     }
 
@@ -56,8 +56,7 @@ function App() {
                         changeColorOnScroll={{
                             height: 400,
                             color: "white"
-                        }}
-                    />
+                        }} />
                     <Switch>
                         <Route path="/landing-page" component={LandingPage} />
                         <Route path="/profile-page" component={ProfilePage} />
