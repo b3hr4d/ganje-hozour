@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2441887c90e99115f1fb5c1805a575a6",
+    "revision": "423c8dce3535db3eee310bfcd70ae397",
     "url": "/ganje-hozour/index.html"
   },
   {
-    "revision": "613b567f997a66a600cf",
-    "url": "/ganje-hozour/static/css/main.20b80b0e.chunk.css"
+    "revision": "c0e84373021db3398a3e",
+    "url": "/ganje-hozour/static/css/main.f51793c5.chunk.css"
   },
   {
-    "revision": "ed2a1fbcde01e47b4b10",
-    "url": "/ganje-hozour/static/js/2.5ea2d478.chunk.js"
+    "revision": "0c95e202e8b2e33746a7",
+    "url": "/ganje-hozour/static/js/2.c15d0075.chunk.js"
   },
   {
-    "revision": "8dbc9bd92b344a5deca62eeacc09fc2d",
-    "url": "/ganje-hozour/static/js/2.5ea2d478.chunk.js.LICENSE.txt"
+    "revision": "e1690def25f3a7d9aa00a43cf9fa9296",
+    "url": "/ganje-hozour/static/js/2.c15d0075.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "613b567f997a66a600cf",
-    "url": "/ganje-hozour/static/js/main.6b7805ae.chunk.js"
+    "revision": "c0e84373021db3398a3e",
+    "url": "/ganje-hozour/static/js/main.c5b1beb2.chunk.js"
   },
   {
     "revision": "89c4dea6467596b018fd",
