@@ -42,13 +42,13 @@ function App() {
         document.body.dir = I18n.dir();
         document.title = t('site.ganjehozour');
     }
-
+    const version = '0.1.0';
     return (
         <StylesProvider jss={jss}>
             <MuiThemeProvider theme={theme}>
                 <Router history={hist}>
                     <Header
-                        brand={t('site.ganjehozour')}
+                        brand={`${t('site.ganjehozour')} ${version}`}
                         rightLinks={<HeaderLinks />}
                         fixed
                         color="transparent"
