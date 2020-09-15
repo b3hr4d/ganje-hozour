@@ -42,7 +42,7 @@ function App() {
         document.body.dir = I18n.dir();
         document.title = t('site.ganjehozour');
     }
-    const version = '0.1.0';
+    const version = process.env.REACT_APP_VERSION;
     return (
         <StylesProvider jss={jss}>
             <MuiThemeProvider theme={theme}>

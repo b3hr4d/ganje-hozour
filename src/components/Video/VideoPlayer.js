@@ -15,6 +15,17 @@ export default function VideoPlayer({ classList, isAudio, URL }) {
                         width="100%"
                         height="100%"
                         url={[{ src: `http://topfi.http.internapcdn.net/topfi/AAC%20Audio/${URL}_Webaudio-low.m4a`, type: "audio/x-m4a" }]}
+                        config={{
+                            attributes: {
+                                style: {
+                                    width: '100%',
+                                },
+                                height: 'auto'
+                            },
+                            file: {
+                                forceAudio: true
+                            }
+                        }}
                     /> :
                     <ReactPlayer
                         className={classList}
